@@ -28,7 +28,7 @@ if @total == 0
 end
 
 def items
-@@all.uniq
+@@all
 end
 
 def void_last_transaction
