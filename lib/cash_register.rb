@@ -26,7 +26,7 @@ if @total == 0
 end
 
 def items
-@@all
+@@all.uniq
 end
 
 
