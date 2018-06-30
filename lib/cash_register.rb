@@ -16,8 +16,8 @@ def add_item(title, price, quantity = 1)
 end
 
 def apply_discount
-@total.round = (1 - (@discount/100.0)) * @total
-"After the discount, the total comes to $#{@total}."
+@total = (1 - (@discount/100.0)) * @total
+"After the discount, the total comes to $#{@total.round}."
 end
 
 
