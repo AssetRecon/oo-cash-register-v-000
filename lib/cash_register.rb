@@ -18,7 +18,7 @@ end
 def apply_discount
 @total = (1 - (@discount/100.0)) * @total
 if @total == 0
-  "There is no discount to apply"
+  "There is no discount to apply."
   else
     "After the discount, the total comes to $#{@total.round}."
   end
