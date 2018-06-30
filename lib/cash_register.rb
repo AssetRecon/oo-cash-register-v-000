@@ -13,7 +13,7 @@ def add_item(title, price, quantity = 0)
 @title = title
 @price = price
 @total += price
-@quantity = @quantity + quantity
+@quantity
 end
 
 end
