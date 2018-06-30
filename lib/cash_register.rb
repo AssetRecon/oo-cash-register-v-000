@@ -7,7 +7,7 @@ attr_accessor :total, :discount, :title, :price, :total, :quantity
 def initialize(discount = 0)
 @total = 0
 @discount = discount
-@all.clear
+@@all.clear
 end
 
 def add_item(title, price, quantity = 1)
